@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#3EA6A6A6"
+    android:orientation="vertical"
+    tools:context=".fragments.Sidemenu">
+
+
+    <TextView
+        android:id="@+id/menutopic"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#2CC182"
+        android:fontFamily="@font/cardo"
+        android:gravity="center"
+        android:text="MENU"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/workoutsid"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/workout"
+                android:fontFamily="@font/cardo"
+                android:text="workouts"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply" />
+
+
+            <Button
+                android:id="@+id/recipesid"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/recipes"
+                android:fontFamily="@font/cardo"
+                android:text="recipes"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply" />
+
+
+            <Button
+                android:id="@+id/advicesid"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/advices"
+                android:fontFamily="@font/cardo"
+                android:text="advices"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply" />
+
+
+            <Button
+                android:id="@+id/sleepscheduleid"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/sleep"
+                android:fontFamily="@font/cardo"
+                android:text="sleep schedule"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply" />
+
+
+            <Button
+                android:id="@+id/remindersid"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/reminders"
+                android:fontFamily="@font/cardo"
+                android:text="reminders"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply" />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>
